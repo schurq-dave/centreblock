@@ -1557,13 +1557,5 @@ fadeEls.forEach(el=>io.observe(el));
 /* Safety fallback: ensure everything is visible after 1.5s regardless */
 setTimeout(()=>fadeEls.forEach(el=>el.classList.add('in')), 1500);
 </script>
-<script>
-// Auto-print: wait for fonts + a beat, then trigger the print dialog.
-(async () => {
-  try { if (document.fonts && document.fonts.ready) await document.fonts.ready; } catch(e){}
-  // give the fade-in/reveal step (1500ms) a moment to settle
-  setTimeout(() => window.print(), 2000);
-})();
-</script>
 </body>
 </html>
