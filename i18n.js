@@ -1,7 +1,10 @@
 // Centreblock — copy for NL and EN. Dutch is canonical per brief; EN is light transliteration.
 window.I18N = {
   nl: {
-    nav: { platform:"Platform", werking:"Werking", voor:"Voor wie", prijs:"Prijzen", inzicht:"Inzichten", login:"Inloggen", cta:"Gratis Website Impact Analyse" },
+    nav: {
+      product:"Product", cases:"Cases", agency:"Agency", blog:"Blog", over:"Over ons", contact:"Contact",
+      login:"Inloggen", cta:"Gratis Website Impact Analyse"
+    },
     hero: {
       eyebrow:"Impact Intelligence voor B2B",
       h1a:"Van websitebezoek naar ",
@@ -148,7 +151,10 @@ window.I18N = {
     }
   },
   en: {
-    nav: { platform:"Platform", werking:"How it works", voor:"Who it's for", prijs:"Pricing", inzicht:"Insights", login:"Sign in", cta:"Free Website Impact Analysis" },
+    nav: {
+      product:"Product", cases:"Cases", agency:"Agency", blog:"Blog", over:"About us", contact:"Contact",
+      login:"Sign in", cta:"Free Website Impact Analysis"
+    },
     hero: {
       eyebrow:"Impact Intelligence for B2B",
       h1a:"From website visit to ",
